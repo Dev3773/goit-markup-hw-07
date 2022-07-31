@@ -205,79 +205,79 @@
   </main>
   <!--Footer section-->
   <footer class="footer">
-    <div class="container">
-      <div class="footer-container">
-        <div class="footer-address">
-          <!--Логотип-->
-          <a class="logo link" href="./index.html" lang="en">Web<span class="logo--right-foot">Studio</span></a>
-          <address class="address">
-            <ul class="address-list list">
-              <li class="address-link">
-                <a class="address-link link" href="https://goo.gl/maps/f1McvQRz6KP4o4kd8" target="_blank"
-                  rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
-              </li>
-              <li class="address-link">
-                <a class="email-link link" href="mailto:info@example.com">info@example.com</a>
-              </li>
-              <li class="address-link">
-                <a class="tel-link link" href="tel:+380961111111">+380961111111</a>
-              </li>
-            </ul>
-          </address>
+    <div class="container footer__container">
+      <!-- Contacts -->
+      <div class="footer-address addres-foot">
+        <!--Логотип-->
+        <a class="logo link" href="./index.html" lang="en">Web<span class="logo--right-foot">Studio</span></a>
+        <address class="address footer-address">
+          <ul class="address__list list">
+            <li class="address__item address-indent">
+              <a class="address__link link" href="https://goo.gl/maps/f1McvQRz6KP4o4kd8" target="_blank"
+                rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li class="address__item address-indent">
+              <a class="address__email-link link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="address__item address-indent">
+              <a class="address__tel-link link" href="tel:+380961111111">+380961111111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <!--Social network-->
+      <div class="social-network">
+        <div class="social-network__social-block">
+          <h3 class="social-network__uppertitle join-indent">присоединяйтесь</h3>
+          <!-- Social icons -->
+          <ul class="social-network__list list">
+            <li class="social-network__item network-indent">
+              <a class="social-network__link social-network__link--clr-foot link" href="" target="_blank"
+                rel="noopener noreferer" aria-label="instagram">
+                <svg class="social-network__icon" width="20px" height="20px">
+                  <use href="./images/icons/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-network__item network-indent">
+              <a class="social-network__link social-network__link--clr-foot link" href="" target="_blank"
+                rel="noopener noreferer" aria-label="instagram">
+                <svg class="social-network__icon" width="20px" height="20px">
+                  <use href="./images/icons/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-network__item network-indent">
+              <a class="social-network__link social-network__link--clr-foot link" href="" target="_blank"
+                rel="noopener noreferer" aria-label="instagram">
+                <svg class="social-network__icon" width="20px" height="20px">
+                  <use href="./images/icons/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-network__item network-indent">
+              <a class="social-network__link social-network__link--clr-foot link" href="" target="_blank"
+                rel="noopener noreferer" aria-label="instagram">
+                <svg class="social-network__icon" width="20px" height="20px">
+                  <use href="./images/icons/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-        <!--Social network-->
-        <div class="social-foot-icon">
-          <div class="social-blok">
-            <h3 class="join">присоединяйтесь</h3>
-            <ul class="social-footer-list list">
-              <li class="social-footer-item">
-                <a class="social-footer-link link" href="" target="_blank" rel="noopener noreferer"
-                  aria-label="instagram">
-                  <svg class="social-footer-icon" width="20px" height="20px">
-                    <use href="./images/icons/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-footer-item">
-                <a class="social-footer-link link" href="" target="_blank" rel="noopener noreferer"
-                  aria-label="instagram">
-                  <svg class="social-footer-icon" width="20px" height="20px">
-                    <use href="./images/icons/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-footer-item">
-                <a class="social-footer-link link" href="" target="_blank" rel="noopener noreferer"
-                  aria-label="instagram">
-                  <svg class="social-footer-icon" width="20px" height="20px">
-                    <use href="./images/icons/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="social-footer-item">
-                <a class="social-footer-link link" href="" target="_blank" rel="noopener noreferer"
-                  aria-label="instagram">
-                  <svg class="social-footer-icon" width="20px" height="20px">
-                    <use href="./images/icons/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- Forms -->
-        <div class="footer-form">
-          <strong class="join">Подпишитесь на рассылку</strong>
-          <form class="form-foot" action="#" method="post">
-            <label for="mail"></label>
-            <input class="form-footer-email" type="email" name="footer-email" id="mail" placeholder="E-mail" required>
-            <button class="footer-button" type="submit">Подписаться
-              <svg class="footer-send" width="24" height="24">
-                <use href="./images/icons/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
+      </div>
+      <!-- Forms -->
+      <div class="footer-form">
+        <h3 class="footer-form__title social-network__uppertitle join-indent">Подпишитесь на рассылку</h3>
+        <form class="form-foot" action="#" method="post">
+          <label for="mail"></label>
+          <input class="form-footer-email" type="email" name="footer-email" id="mail" placeholder="E-mail" required>
+          <button class="footer-button" type="submit">Подписаться
+            <svg class="footer-send" width="24" height="24">
+              <use href="./images/icons/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
   </footer>
