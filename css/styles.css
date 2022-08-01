@@ -449,7 +449,7 @@ margin-right: 50px;
 }
 
 .modal-form-input:hover + .modal-form-icon {
-fill: var(--btn-color);
+  fill: var(--btn-color);
 }
 
 .modal-form-input:focus +.modal-form-icon {
@@ -564,7 +564,7 @@ fill: var(--btn-color);
   rgba(0, 0, 0, 0.12);
 }
 
-/* --About section-- */
+/* --About-work section-- */
 
 .about-title {
   color: var(--accent-cl);
@@ -576,21 +576,24 @@ fill: var(--btn-color);
   letter-spacing: 0.03em;
 }
 
-.about-list {
+.about {
   display: flex;
   align-items: center;
 }
 
-.about-item {
+.about__item {
   width: 270px;
+}
+
+.about-indent {
   margin-right: 30px;
 }
 
-.about-item:last-child {
+.about-indent:last-child {
   margin-right: 0;
 }
 
-.about-cont {
+.about-image__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -602,7 +605,7 @@ fill: var(--btn-color);
   background-color: var(--second-color);
 }
 
-.about-item-title {
+.about__subtitle {
   margin-bottom: 10px;
 
   color: var(--accent-cl);
@@ -614,7 +617,7 @@ fill: var(--btn-color);
   text-transform: uppercase;
 }
 
-.about-text {
+.about__text {
   color: var(--email-phone-cl);
 
   font-size: 14px;
@@ -622,13 +625,13 @@ fill: var(--btn-color);
   letter-spacing: 0.03em;
 }
 
-/* --Working section-- */
+/* --Applications section-- */
 
-.working {
+.applications {
   padding-top: 0;
 }
 
-.working__title {
+.applications-title {
   color: var(--accent-cl);
 
   font-weight: 700;
@@ -638,11 +641,11 @@ fill: var(--btn-color);
   letter-spacing: 0.03em;
 }
 
-.working-indent {
+.applications-indent {
 margin-bottom: 50px;
 }
 
-.working__list {
+.working {
   display: flex;
   align-items: center;
 }
@@ -746,8 +749,7 @@ margin-bottom: 50px;
 
 /* --Regular customers section-- */
 
-.customers__title {
-  margin-bottom: 50px;
+.customers-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -757,7 +759,11 @@ margin-bottom: 50px;
   color: #212121
 }
 
-.customer__list {
+.customers-indent {
+margin-bottom: 50px;
+}
+
+.customers {
   display: flex;
   justify-content: space-between;
 }
