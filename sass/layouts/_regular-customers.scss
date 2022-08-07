@@ -19,12 +19,11 @@
 
   color: var(--icon-color);
   transition: var(--animac);
-}
 
-.customers__link:hover,
-.customers__link:focus {
-  border-color: var(--btn-bg-color);
-  color: var(--btn-color);
+  &:hover, &:focus {
+    border-color: var(--btn-bg-color);
+    color: var(--btn-color);
+  }
 }
 
 .customers__icon {

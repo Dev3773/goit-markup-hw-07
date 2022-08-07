@@ -19,10 +19,9 @@
 
 .about-indent {
   margin-right: 30px;
-}
-
-.about-indent:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .about-image__icon {

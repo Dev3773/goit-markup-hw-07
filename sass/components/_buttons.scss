@@ -9,6 +9,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: transparent;
   border-radius: 4px;
+
   color: var(--main-text-cl);
   background-color: var(--btn-color);
 
@@ -18,4 +19,13 @@
   letter-spacing: 0.06em;
   cursor: pointer;
   transition: var(--animac);
+}
+
+.button--hero {
+  min-width: 216px;
+  padding: 10px 32px;
+  &:hover, &:focus {
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+  }
 }
