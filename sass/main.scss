@@ -1,5 +1,5 @@
 //  Допоміжні инструменти, переменные
- @import "./utils/vars";
+ @import "./utils/variables";
  @import "./utils/visually-hidden";
  //  Загальні стилі
  @import "./base/common";
@@ -12,6 +12,8 @@
  @import "./components/socials";
  @import "./components/uppertitle";
  @import "./components/title";
+ @import "./components/logo"; 
+ @import "./components/form/module";
 //  Секции
 @import "./layouts/header";
 @import "./layouts/hero";
