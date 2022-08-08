@@ -5,8 +5,10 @@
   margin-bottom: 50px;
 }
 
-.btn-portfolio:not(:last-child) {
-  margin-right: 8px;
+.btn-portfolio {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .portfolio__button {
@@ -26,52 +28,28 @@
   letter-spacing: 0.03em;
   cursor: pointer;
   transition: var(--animac);
+
   &:hover, &:focus {
     background-color: var(--btn-color);
     color: var(--main-text-cl);
 
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+      0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
 
 .portfolio__item {
   width: 370px;
   height: 404px;
-}
-
-.portfolio__item:hover,
-.portfolio__item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.portfolio__item:hover .overlay-desc,
-.portfolio__item:focus .overlay-desc {
-  transform: translateY(0);
-}
-
-.overlay {
-  position: relative;
-  overflow: hidden;
-}
-
-.overlay-desc {
-  position: absolute;
-  padding: 66px 24px;
-  top: 0;
-  left: 0;
-  transform: translateY(100%);
-  transition: var(--animac);
-
-  background-color: rgba(33, 150, 243, 0.9);
-  color: var(--main-text-cl);
-
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
-  letter-spacing: 0.03em;
+  
+  &:hover, &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  &:hover .overlay-desc, &:focus .overlay-desc {
+      transform: translateY(0);
+     }
 }
 
 .card {

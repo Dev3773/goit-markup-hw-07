@@ -1,11 +1,10 @@
-//  Допоміжні инструменти, переменные
  @import "./utils/variables";
  @import "./utils/visually-hidden";
- //  Загальні стилі
+ 
  @import "./base/common";
  @import "./base/reset";
  @import "./base/card-set";
-//  Перевикористати
+
  @import "./components/buttons";
  @import "./components/section";
  @import "./components/container";
@@ -14,7 +13,8 @@
  @import "./components/title";
  @import "./components/logo"; 
  @import "./components/form/module";
-//  Секции
+ @import "./components/overlay";
+
 @import "./layouts/header";
 @import "./layouts/hero";
 @import "./layouts/about-work";

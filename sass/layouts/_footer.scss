@@ -25,8 +25,10 @@
   margin-top: 20px;
 }
 
-.address-indent:not(:last-child) {
-  margin-bottom: 9px;
+.address-indent {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .address__link {
@@ -38,11 +40,10 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-}
 
-.address__link:hover,
-.address__link:focus {
-  color: var(--second-text-cl);
+  &:hover, &:focus {
+    color: var(--second-text-cl);
+  }
 }
 
 .address__email-link,
@@ -56,23 +57,17 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  &:hover, &:focus {
+    color: var(--second-text-cl);
+  }
 }
 
-.address-item:hover,
-.address-item:focus {
-  color: var(--second-text-cl);
+.address-item {
+  &:hover, &:focus {
+    color: var(--second-text-cl);
+  }
 }
-
-.address__email-link:hover,
-.address__email-link:focus {
-  color: var(--second-text-cl);
-}
-
-.address__tel-link:hover,
-.address__tel-link:focus {
-  color: var(--second-text-cl);
-}
-
 /* --Social network-- */
 
 .social-network__list {
@@ -124,21 +119,16 @@
   line-height: 1.25;
   letter-spacing: 0.03em;
   transition: var(--animac);
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:focus {
+    border-color: var(--border-form-color);
+  }
+
 }
-
-.form-footer__email:focus {
-  border-color: var(--border-form-color);
-}
-
-.form-footer__email::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .button--flex {
   display: flex;
   align-items: center;
