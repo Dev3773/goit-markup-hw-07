@@ -127,14 +127,4 @@
   &:focus {
     border-color: var(--border-form-color);
   }
-
-}
-.button--flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.button__send {
-  margin-left: 10px;
 }

@@ -19,13 +19,13 @@
 
 .about-indent {
   margin-right: 30px;
-  
+
   &:last-child {
     margin-right: 0;
   }
 }
 
-.about-image__icon {
+.about-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,8 +38,6 @@
 }
 
 .about__subtitle {
-  margin-bottom: 10px;
-
   color: var(--accent-cl);
 
   font-weight: 700;
@@ -47,6 +45,10 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.subtitle-indent {
+  margin-bottom: 10px;
 }
 
 .about__text {

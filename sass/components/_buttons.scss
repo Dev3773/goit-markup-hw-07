@@ -22,6 +22,8 @@
 }
 
 .button--hero {
+  @extend .button;
+  
   min-width: 216px;
   padding: 10px 32px;
   
@@ -29,4 +31,16 @@
     background-color: var(--btn-bg-color);
     color: var(--btn-text-color);
   }
+}
+
+.button--footer {
+  @extend .button;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__send {
+  margin-left: 10px;
 }
